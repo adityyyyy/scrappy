@@ -8,6 +8,10 @@ import (
 	"github.com/gocolly/colly"
 )
 
+func rev(s string) string {
+
+}
+
 func main() {
 	fName := "cryptocoinmarketcap.csv"
 	file, err := os.Create(fName)
